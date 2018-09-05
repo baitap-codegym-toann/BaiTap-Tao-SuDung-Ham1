@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai3</title>
+</head>
+<body>
+<script>
+    let input = prompt("xin nhập 2 số dưới dạng number1,number2","");
+    let number1 = Number(input.split(",")[0]);
+    let number2 = Number(input.split(",")[1]);
+    compare(number1,number2);
+
+    function compare(a,b) {
+        if (a>b) {
+            alert(a + " lớn hơn " + b);
+        }else {
+            return a+b;
+        }
+    }
+</script>
+
+</body>
+</html>
